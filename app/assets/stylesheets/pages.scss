@@ -19,13 +19,13 @@
   transition: 0.3s linear;
 }
 
-.inner-width {
+.container-width {
   max-width: 1300px;
   margin: auto;
   padding: 0 40px;
 }
 
-.navbar .inner-width {
+.navbar .container-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,7 +52,7 @@
 .menu-toggler span {
   display: block;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(29, 39, 10);
   margin: 6px 0;
   position: relative;
   transition: 0.3s linear;
@@ -60,7 +60,7 @@
 
 .navbar-menu a {
   font-family: "Chivo", sans-serif;
-  color: #4d5139;
+  color: rgb(29, 39, 10);
   font-size: 20px;
   font-weight: 500;
   margin-left: 30px;
@@ -68,8 +68,8 @@
 }
 
 .navbar-menu a:hover {
-  color: #4d5139 !important;
-  border-bottom: 1px solid #4d5139 !important;
+  color: rgb(29, 39, 10) !important;
+  border-bottom: 1px solid rgb(29, 39, 10) !important;
 }
 
 .sticky {
@@ -89,7 +89,7 @@
   background-color: #111;
 }
 
-#home {
+#homepage {
   height: 100vh;
   min-height: 500px;
   background: url(/images/bg02.jpg) no-repeat center;
@@ -97,7 +97,7 @@
   background-attachment: fixed;
 }
 
-#home .inner-width {
+#homepage .container-width {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,17 +105,17 @@
   text-align: center;
 }
 
-#home .content {
+#homepage .content {
   width: 100%;
-  color: #c1abad;
+  color: #e1a679;
 }
 
-#home .content h1 {
+#homepage .content h1 {
   font-size: 60px;
   margin-bottom: 60px;
 }
 
-#home .content h1::after {
+#homepage .content h1::after {
   content: "a developer.";
   animation: textanim 10s linear infinite;
 }
@@ -143,26 +143,26 @@
   color: #48dbfb;
 }
 
-#home .buttons {
+#homepage .buttons {
   margin-top: 60px;
 }
 
-#home .buttons a {
+#homepage .buttons a {
   display: inline-block;
   margin: 15px 30px;
-  color: #4d5139;
+  color: rgb(29, 39, 10);
   font-size: 24px;
   font-weight: 500;
   width: 180px;
-  border: 1px solid #4d5139;
+  border: 1px solid rgb(29, 39, 10);
   padding: 14px 0;
   border-radius: 6px;
   transition: 0.2s linear;
 }
 
-#home .buttons a:hover,
-#home .buttons a:nth-child(2) {
-  background-color: #4d5139;
+#homepage .buttons a:hover,
+#homepage .buttons a:nth-child(2) {
+  background-color: rgb(29, 39, 10);
   color: #fff;
 }
 
