@@ -1,24 +1,15 @@
-# README
+## 1.專案預覽：[部署連結](annielin.cc)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![專案畫面預覽圖](https://i.imgur.com/mFdWddO.jpg)
 
-Things you may want to cover:
+![專案畫面預覽圖](https://i.imgur.com/ZDiKGxM.png =300x450)
 
-* Ruby version
+## 2.設計理念
 
-* System dependencies
+- 現為個人網頁入口網，後續將持續開發為個人網站。
+- 預計增加個人專案介紹及部落格文章功能。
 
-* Configuration
+## 3.版本
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- ruby '2.6.5'
+- rails, '~> 6.0.3', '>= 6.0.3.2'
